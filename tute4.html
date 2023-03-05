@@ -1,0 +1,112 @@
+<!doctype html>
+
+
+<html lang="en">
+
+
+<head>
+
+
+<title>form subjects</title>
+
+<meta charset="UTF-8">
+
+
+<style>
+
+
+body{
+background-color:yellow;
+}
+
+
+label{
+display: inline-block;
+width: 10%;
+text-align: left;
+}
+#pword{
+
+display: inline-block;
+width: 50px;
+text-align: left;
+}
+
+#com{
+
+height:200px;}
+
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<h1> UNIVERSITY REGISTRATION</h1>
+
+
+<p> enter your details</p><br><br>
+<form>
+<fieldset>
+<table>
+
+
+	<label for="fname"> first name </label>
+	<input type="text" id="fname" name="fname"><br><br>
+	<label for="sname">  second name </label>
+	<input type="text" id="sname" name="sname"><br><br>
+	<label for="surname"> sur name </label>
+	<input type="text" id="surname" name="surname"><br><br>
+	<label for="surname"> email </label>
+	<input type="email" id="email" name="email"><br><br>
+	<label for="pword"> password </label>
+	<input type="password" id="pword" name="pword"><br><br><br>
+
+<p>LEVEL:</p><br>
+
+		
+	<label for="grad"> Post-Graduate </label>
+	<input type="radio" id="pgrad" name="grad"><br>
+	<label for="grad"> Under-Graduate </label>
+	<input type="radio" id="grad" name="grad"><br><br><br>
+
+	<div style="display:flex";>
+	<label for="com"> comments </label>
+	<input type="text-box" id="com" name="com">
+	</div><br><br>
+	
+
+		<label for="course"> COURSE </label>
+	
+		<select name="co-opt" id="co-opt" single>
+ 		 <option value="cs">Computer Science</option>
+  		<option value="saab">Data & AI</option>
+  		<option value="opel">Business Management</option>
+  		<option value="audi">Software Engineer</option>
+		</select>
+
+		<br><br>
+
+
+		<label for="T&C">Terms & Conditions</label>
+		<input type="checkbox" id="t&c" name="t&c" required><br><br>
+
+
+	<input type="submit" value="submit">
+	<input type="reset">
+
+
+
+</form>
+
+
+</fieldset>
+
+</body>
+
+
+</html>
